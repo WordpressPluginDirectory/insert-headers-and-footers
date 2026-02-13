@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPCode Lite 2.3.3\n"
+"Project-Id-Version: WPCode Lite 2.3.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/insert-headers-and-footers\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-01-21T09:21:09+00:00\n"
+"POT-Creation-Date: 2026-02-12T14:45:45+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: insert-headers-and-footers\n"
@@ -3175,6 +3175,94 @@ msgstr ""
 
 #: includes/capabilities.php:68
 msgid "This enables users to use the file editor."
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:39
+msgid "WPCode Diagnostics"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:40
+msgid "Abilities for checking snippet health"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:48
+msgid "WPCode Library"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:49
+msgid "Abilities for searching pre-built templates"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:57
+msgid "WPCode Insights"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:58
+msgid "Abilities for reading current snippet configurations"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:94
+msgid "List Code Snippets"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:95
+msgid "Provides a summary of all snippets and their active/inactive status"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:111
+msgid "Filter by snippet status"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:117
+msgid "Filter by code type"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:121
+msgid "Filter by tag"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:156
+msgid "Detect Snippet Errors"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:157
+msgid "Checks if WPCode's error handler has flagged any active snippets"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:172
+msgid "Snippet ID to check"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:202
+msgid "Get Error Logs"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:203
+msgid "Provides the stack trace of recent snippet-related failures"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:235
+msgid "Search WPCode Library"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:236
+msgid "Queries the WPCode Cloud Library for snippets matching a keyword"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:251
+msgid "Search keyword"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:284
+msgid "Get WPCode Settings"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:285
+msgid "Reads global settings (e.g., \"Safe Mode\" status)"
+msgstr ""
+
+#: includes/class-wpcode-abilities-api.php:414
+msgid "Snippet not found"
 msgstr ""
 
 #: includes/class-wpcode-admin-bar-info.php:156
