@@ -189,7 +189,7 @@ class WPCode_Library {
 	public function load_data() {
 		$this->data = $this->get_from_cache( $this->cache_key );
 
-		if ( false === $this->data ) {
+		if ( empty( $this->data ) || ! is_array( $this->data ) ) {
 			$this->data = $this->get_from_server();
 		}
 
@@ -567,7 +567,7 @@ class WPCode_Library {
 
 		$this->snippets_by_username[ $username ] = $this->get_from_cache( 'profile_' . $username );
 
-		if ( false === $this->snippets_by_username[ $username ] ) {
+		if ( empty( $this->snippets_by_username[ $username ] ) || ! is_array( $this->snippets_by_username[ $username ] ) ) {
 			$this->snippets_by_username[ $username ] = $this->get_from_server_by_username( $username );
 		}
 
